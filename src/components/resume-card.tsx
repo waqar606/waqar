@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 import { ChevronRightIcon } from "lucide-react";
 import Link from "next/link";
-import React from "react";
+import React, { Fragment } from "react";
 
 interface ResumeCardProps {
   logoUrl: string;
@@ -15,9 +15,12 @@ interface ResumeCardProps {
   title: string;
   subtitle?: string;
   href?: string;
-  badges?: readonly string[];
   period: string;
-  description?: string;
+  gradeAcheived: string;
+  description: string[];
+  skills: string[];
+  keyVal?: string;
+  value?: string;
 }
 export const ResumeCard = ({
   logoUrl,
@@ -25,9 +28,12 @@ export const ResumeCard = ({
   title,
   subtitle,
   href,
-  badges,
   period,
   description,
+  gradeAcheived,
+  skills,
+  keyVal,
+  value,
 }: ResumeCardProps) => {
   const [isExpanded, setIsExpanded] = React.useState(false);
 
@@ -60,19 +66,6 @@ export const ResumeCard = ({
             <div className="flex items-center justify-between gap-x-2 text-base">
               <h3 className="inline-flex items-center justify-center font-semibold leading-none text-xs sm:text-sm">
                 {title}
-                {badges && (
-                  <span className="inline-flex gap-x-1">
-                    {badges.map((badge, index) => (
-                      <Badge
-                        variant="secondary"
-                        className="align-middle text-xs"
-                        key={index}
-                      >
-                        {badge}
-                      </Badge>
-                    ))}
-                  </span>
-                )}
                 <ChevronRightIcon
                   className={cn(
                     "size-4 translate-x-0 transform opacity-0 transition-all duration-300 ease-out group-hover:translate-x-1 group-hover:opacity-100",
@@ -81,12 +74,12 @@ export const ResumeCard = ({
                 />
               </h3>
               <div className="text-xs sm:text-sm tabular-nums text-muted-foreground text-right">
-                {period}
+                {period} - {gradeAcheived}
               </div>
             </div>
             {subtitle && <div className="font-sans text-xs">{subtitle}</div>}
           </CardHeader>
-          {description && (
+          {description && description.length > 0 && (
             <motion.div
               initial={{ opacity: 0, height: 0 }}
               animate={{
@@ -98,9 +91,32 @@ export const ResumeCard = ({
                 duration: 0.7,
                 ease: [0.16, 1, 0.3, 1],
               }}
-              className="mt-2 text-xs sm:text-sm"
+              className="mt-2 text-xs sm:text-sm flex flex-col gap-2"
             >
-              {description}
+              <div className="flex flex-col">
+                {description.map((each, i) => (
+                  <p className="" key={i}>
+                    - {each}
+                  </p>
+                ))}
+              </div>
+              {keyVal && value ? (
+                <p className="">
+                  <span className="font-bold">{keyVal}: </span>
+                  {value}
+                </p>
+              ) : null}
+              <div className="flex gap-2 flex-wrap">
+                {skills.map((skill, index) => (
+                  <Badge
+                    variant="secondary"
+                    className="align-middle text-xs"
+                    key={index}
+                  >
+                    {skill}
+                  </Badge>
+                ))}
+              </div>
             </motion.div>
           )}
         </div>

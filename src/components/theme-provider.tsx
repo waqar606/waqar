@@ -2,7 +2,14 @@
 
 import { ThemeProvider as NextThemesProvider } from "next-themes";
 import { ThemeProviderProps } from "next-themes/dist/types";
+import { Fragment } from "react";
+import { Toaster } from "react-hot-toast";
 
 export function ThemeProvider({ children, ...props }: ThemeProviderProps) {
-  return <NextThemesProvider {...props}>{children}</NextThemesProvider>;
+  return (
+    <Fragment>
+      <Toaster />
+      <NextThemesProvider {...props}>{children}</NextThemesProvider>
+    </Fragment>
+  );
 }
