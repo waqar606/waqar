@@ -15,6 +15,21 @@ export const PROJECTS = [
       "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/2048 Game with AI twozerofoureight.png?alt=media&token=95f9e4ac-833b-420b-86b5-12f39be67fb1",
   },
   {
+    id: "14",
+    isActive: true,
+    liveLinks: ["https://inshal.netlify.app/"],
+    mainPara:
+      "The following application is React based application that uses ReduxToolkit for central state management. It fetches data from firebase and features elegant design and animation.",
+    majorHashtags: ["ReactJS", "Firebase", "Redux"],
+    minorHashtags: ["ReduxToolkit", "Bootstrap"],
+    mp4URL: "/dev_portfolio.mp4",
+    tagLine: "My old developer`s portfolio (not maintained anymore)",
+    title: "My Old Portfolio",
+    gitLinks: ["https://github.com/HuzaifaInshal/react_portfolio"],
+    titlePictureURL:
+      "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/Firebase%20Controller%20FirebaseController.PNG?alt=media&token=069fdc0d-0f4a-46cd-8bce-89cf6963323f",
+  },
+  {
     blogFlow: "",
     gitLinks: ["https://github.com/HuzaifaInshal/Excel_sales_data_dashboard"],
     id: "10",
@@ -29,22 +44,7 @@ export const PROJECTS = [
     titlePictureURL:
       "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/Sales Dashboard with Excel excel.png?alt=media&token=c0ecb4f7-1aa4-4de0-9fd1-51dc10ca59d3",
   },
-  {
-    blogFlow:
-      '<p><img src="https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/UIUX Case Study uiux.jpg?alt=media&amp;token=d6e5bde8-1f9b-45ce-bb54-dbea3b8efb72"></p>',
-    gitLinks: [""],
-    id: "19",
-    isActive: true,
-    liveLinks: [""],
-    mainPara:
-      "As part of my internship in PCSIR, I redesigned easypaisa mobile application with figma that aims to solve the existing design defects, also comprehend the given design into a case study.",
-    majorHashtags: ["UIUX", "Figma"],
-    minorHashtags: ["mobileDesign"],
-    tagLine: "easypaisa app redesigned",
-    title: "UIUX Case Study",
-    titlePictureURL:
-      "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/UIUX Case Study title.jpg?alt=media&token=89ebf422-bc53-4b10-bf30-5ecdfc31d37a",
-  },
+
   {
     blogFlow:
       '<p>The following project was created as a personal project. The frontend of the project was built by plain HTML, CSS, JavaScript in Webflow. The backend of the project was created using Django.</p><p><br></p><h1>Database</h1><p>The app features a total of 3 data classes:</p><ul><li>For storing User info; built using Django default user class</li><li>For storing Books uploaded by user</li><li>For storing Music uploaded by user</li></ul><p><br></p><h1>Flow of the Program</h1><p>At first the user is welcomed by an animated splash screen, later is taken to the main Landing Page. By clicking approapriate button user will be taken to login and signup page. Once the login singnup process is completed user will access to main activity page. Here the user may listen to songs uploaded by other users or only uploaded by himself only. Same process may be go for books. A third party book reading website pdfdrive.com is also embedded and a Youtube functionality is also embedded if the user wants to watch videos from Youtube. Some pictures are attached below:</p><p><br></p><p><strong>Splash Page:</strong></p><p><img src="https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/BookStudio 1.png?alt=media&amp;token=bbcc6809-9821-4012-83b0-3048f9290705"></p><p><br></p><p><strong>Splash Page Continued</strong></p><p><img src="https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/BookStudio%202.jpg?alt=media&amp;token=8c624eed-339e-4805-8a2b-d2f8dca5f231"></p><p><br></p><p><strong>Landing Page</strong></p><p><img src="https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/BookStudio%203.jpg?alt=media&amp;token=6a9b5b96-03f4-4798-a726-f7bedc08ea70"></p><p><br></p><p><strong>Login Page</strong></p><p><img src="https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/BookStudio%204.jpg?alt=media&amp;token=f0ca29b1-ef33-44a5-b6d4-5015d8d37bbb"></p><p><br></p><p><strong>Signup Page</strong></p><p><img src="https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/BookStudio%205.jpg?alt=media&amp;token=5adf2cfa-fb66-4c38-98c3-a466a9db36a8"></p><p><br></p><p><strong>Books Panel</strong> fetching data from pdfdrive</p><p><img src="https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/BookStudio 10.jpg?alt=media&amp;token=727755d2-efa3-40a3-ad54-2708b372660f"></p><p><br></p><p><strong>Music Panel </strong>to upload your own music and can also access music uplaoded by others.</p><p><img src="https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/BookStudio 9.png?alt=media&amp;token=95313537-9cbd-4cfc-b508-b7218f24587d"></p><p><br></p><p><strong>Youtube Panel</strong> extended to Music Panel to search Youtube</p><p><img src="https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/BookStudio 8.jpg?alt=media&amp;token=f14e712a-213e-46d9-af04-c2fe1f6da459"></p><p><br></p><p><strong>Music Panel</strong></p><p><img src="https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/BookStudio 7.jpg?alt=media&amp;token=11915c2a-3600-401e-9208-9ab52bffb81c"></p><p><br></p><p>Books Panel to upload your own pdfs and can also access pdfs uploaded by other users</p><p><img src="https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/BookStudio 6.jpg?alt=media&amp;token=c961cb1c-6f85-4220-9590-093dcca1ab8b"></p><p><br></p>',
@@ -56,12 +56,27 @@ export const PROJECTS = [
       "A responsive web app based on frontend from webflow and backend of django. It serves as a place where a user can listen to music, read books or browse and watch Youtube videos. I built this app, alongside my 2 friends Zain and Huzaifa who also are professional developers, as a part of my university software engineering course project.",
     majorHashtags: ["Django", "Webflow"],
     minorHashtags: ["Html", "CSS", "JavaScript"],
-    tagLine: "A Place to Listen and Read",
+    tagLine: "A Place to Listen and Read (not maintained anymore)",
     title: "BookStudio",
     titlePictureURL:
       "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/BookStudio%20bookstudio.png?alt=media&token=f76d97de-b828-4a17-8a0b-caa1900477a5",
   },
-
+  {
+    blogFlow:
+      '<p><img src="https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/UIUX Case Study uiux.jpg?alt=media&amp;token=d6e5bde8-1f9b-45ce-bb54-dbea3b8efb72"></p>',
+    gitLinks: [],
+    id: "19",
+    isActive: true,
+    liveLinks: [],
+    mainPara:
+      "As part of my internship in PCSIR, I redesigned easypaisa mobile application with figma that aims to solve the existing design defects, also comprehend the given design into a case study.",
+    majorHashtags: ["UIUX", "Figma"],
+    minorHashtags: ["mobileDesign"],
+    tagLine: "easypaisa app redesigned",
+    title: "UIUX Case Study",
+    titlePictureURL:
+      "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/UIUX Case Study title.jpg?alt=media&token=89ebf422-bc53-4b10-bf30-5ecdfc31d37a",
+  },
   {
     blogFlow: "",
     gitLinks: ["https://github.com/HuzaifaInshal/mp3juicez.git"],
@@ -109,30 +124,6 @@ export const PROJECTS = [
     title: "TODO App",
     titlePictureURL:
       "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/TODO App todo.PNG?alt=media&token=38794eed-6189-4139-8f6f-0ee3b55eeebe",
-  },
-  {
-    blogFlow:
-      "<p>The application main page consist of projects list being displayed, each of them can be updated or deleted, all the forms inside are dynamic forms.</p><p>The application featrues databse for 3 different usecases, one containing projects data, second containing my about data and third containing the URL to my Resume upload on Firebase Storage. All the media assets are sotred in Firebase Storage and JSON files are stored in Firebase Realtime Database.</p>",
-    gitLinks: ["https://github.com/HuzaifaInshal/FirebaseController.git"],
-    id: "14",
-    isActive: true,
-    liveLinks: [""],
-    mainPara:
-      "The following application is React based application that uses ReduxToolkit for central state management. It main purpose is to perform CRUD operations in firebase service that serves as the database service for my portfolio web",
-    majorHashtags: ["ReactJS", "Firebase", "Redux"],
-    minorHashtags: [
-      "ReduxToolkit",
-      "FirebaseRealtimeDatabase",
-      "FirebaseStorage",
-      "Bootstrap",
-      "DynamicForms",
-    ],
-    mp4URL:
-      "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/Firebase%20Controller%20firebaseCon.mp4?alt=media&token=900162df-fb05-48f3-9542-b963ef2019ce",
-    tagLine: "Controlling data of my portfolio web with firebase",
-    title: "Firebase Controller",
-    titlePictureURL:
-      "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/Firebase%20Controller%20FirebaseController.PNG?alt=media&token=069fdc0d-0f4a-46cd-8bce-89cf6963323f",
   },
   {
     blogFlow: "",
@@ -201,20 +192,5 @@ export const PROJECTS = [
     title: "SpaceX Spacecraft",
     titlePictureURL:
       "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/SpaceX Spacecraft spacex.png?alt=media&token=8a92f237-cde7-4fa4-a110-f2a68573bcb1",
-  },
-  {
-    blogFlow: "",
-    gitLinks: ["https://github.com/HuzaifaInshal/3d_car_ball_animation.git"],
-    id: "9",
-    isActive: true,
-    liveLinks: [" https://3dcarandball.netlify.app/"],
-    mainPara:
-      "A simple threeJS animation where a car pushes a ball to fall off from a box.",
-    majorHashtags: ["ReactJS", "ThreeJS"],
-    minorHashtags: ["React-Three-Fiber", "React-Three-Drei", "GSAP"],
-    tagLine: "ThreeJS Animation",
-    title: "Car & Ball Animation ThreeJS",
-    titlePictureURL:
-      "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/Car and Ball Animation with ThreeJS cb.png?alt=media&token=b6e23bdd-e10a-4b72-98b9-fe86e0c292bf",
   },
 ];

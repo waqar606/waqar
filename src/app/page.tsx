@@ -65,18 +65,22 @@ export default function Page() {
                   </Avatar>
                 </BlurFade>
               </div>
-              <div className="flex items-center gap-2">
-                <IconButtonWithAnimation variant="linkedin" isBlack />
-                <IconButtonWithAnimation variant="github" isBlack />
-                <IconButtonWithAnimation variant="facebook" isBlack />
-                <IconButtonWithAnimation variant="instagram" isBlack />
-                <IconButtonWithAnimation variant="phone" isBlack />
-              </div>
-              <TextSliderButton
-                textOne="Download CV"
-                textTwo="Download CV"
-                blackVariant
-              />
+              <BlurFade delay={BLUR_FADE_DELAY}>
+                <div className="flex items-center gap-2">
+                  <IconButtonWithAnimation variant="linkedin" isBlack />
+                  <IconButtonWithAnimation variant="github" isBlack />
+                  <IconButtonWithAnimation variant="facebook" isBlack />
+                  <IconButtonWithAnimation variant="instagram" isBlack />
+                  <IconButtonWithAnimation variant="phone" isBlack />
+                </div>
+                <Link href={`/Huzaifa's Resume.pdf`} target="_blank">
+                  <TextSliderButton
+                    textOne="Download CV"
+                    textTwo="Download CV"
+                    blackVariant
+                  />
+                </Link>
+              </BlurFade>
             </div>
           </section>
           <section id="about">
