@@ -39,6 +39,9 @@ export const DATA = {
         "NestJs",
         "NodeJs",
         "Django",
+        "Booststrap",
+        "Tailwind",
+        "JQuery",
       ],
     },
     {
@@ -47,7 +50,15 @@ export const DATA = {
     },
     {
       heading: "Others",
-      skills: ["Kali Linux", "CICD", "Docker", "Figma", "ThreeJs"],
+      skills: [
+        "Kali Linux",
+        "Power Query",
+        "CICD",
+        "Docker",
+        "Figma",
+        "ThreeJs",
+        "npm/npx/pip",
+      ],
     },
     {
       heading: "Soft Skills",
