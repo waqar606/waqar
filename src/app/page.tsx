@@ -73,6 +73,8 @@ export default function Page() {
                   <IconButtonWithAnimation variant="instagram" isBlack />
                   <IconButtonWithAnimation variant="phone" isBlack />
                 </div>
+              </BlurFade>
+              <BlurFade delay={BLUR_FADE_DELAY}>
                 <Link href={`/Huzaifa's Resume.pdf`} target="_blank">
                   <TextSliderButton
                     textOne="Download CV"
