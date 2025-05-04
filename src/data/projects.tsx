@@ -67,7 +67,9 @@ export const PROJECTS = [
     gitLinks: [],
     id: "19",
     isActive: true,
-    liveLinks: [],
+    liveLinks: [
+      "https://media.licdn.com/dms/image/v2/D4D2DAQFrhZjYaXAGEg/profile-treasury-image-shrink_8192_8192/profile-treasury-image-shrink_8192_8192/0/1696026238290?e=1746975600&v=beta&t=ubRtdZi6bnuS_NSM6_geXAjMwiAnppu9MHqNsGXZlVA",
+    ],
     mainPara:
       "As part of my internship in PCSIR, I redesigned easypaisa mobile application with figma that aims to solve the existing design defects, also comprehend the given design into a case study.",
     majorHashtags: ["UIUX", "Figma"],
