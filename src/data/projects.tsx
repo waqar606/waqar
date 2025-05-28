@@ -1,7 +1,42 @@
 export const PROJECTS = [
   {
     blogFlow: "",
-    gitLinks: [" https://github.com/HuzaifaInshal/2048_with_GUI_AI"],
+    gitLinks: [
+      "https://drive.google.com/drive/folders/1bXaL_rysYZmc_VWlPDEsnIG9jVDsWYW-?usp=sharing",
+    ],
+    id: "51",
+    isActive: true,
+    liveLinks: [
+      "https://drive.google.com/drive/folders/1bXaL_rysYZmc_VWlPDEsnIG9jVDsWYW-?usp=sharing",
+    ],
+    mainPara:
+      "A risk assessment report for Oxone Enterprises (a theoretical company) designed in Excel, featuring table normalization for structured data management, visualizations through charts and dashboards for risk insights, and data integration using Power Query for automated data fetching and transformation. The report also utilizes Power Pivot to create data models and perform advanced risk analysis using DAX formulas, enabling dynamic filtering, aggregation, and scenario-based reporting.",
+    majorHashtags: ["IT Governance", "Excel"],
+    minorHashtags: ["Risk Assessment"],
+    tagLine: "Risk Assessment Report with Advanced Excel",
+    title: "Oxone Enterprise Risk Assessment Report",
+    titlePictureURL: "",
+    mp4URL: "/oxone.mp4",
+  },
+  {
+    blogFlow: "",
+    gitLinks: [
+      "https://github.com/HuzaifaInshal/Wifite_hashcat_automation_script.git",
+    ],
+    id: "50",
+    isActive: true,
+    liveLinks: [""],
+    mainPara:
+      "This Python script automates WPA handshake cracking by integrating Wifite for capturing handshakes, hcxpcapngtool for converting .cap files to .hc22000, and Hashcat for performing dictionary attacks using a chosen wordlist from the wordlists/ directory. It supports downloading popular wordlists like rockyou.txt and general-list.txt, allows device selection for Hashcat, and optionally cleans up output files after execution. The script simplifies the entire process—from handshake capture to cracking—into an interactive and streamlined workflow for penetration testing.",
+    majorHashtags: ["Offesive Security", "Python"],
+    minorHashtags: ["Wifite", "Kali", "Hashcat"],
+    tagLine: "Cracking WPA/WPA2 handshakes with Wifite and Hashcat",
+    title: "Wifite + Hashcat Python Automation Script",
+    titlePictureURL: "/wifiteHashcat.png",
+  },
+  {
+    blogFlow: "",
+    gitLinks: ["https://github.com/HuzaifaInshal/2048_with_GUI_AI"],
     id: "7",
     isActive: true,
     liveLinks: [""],
