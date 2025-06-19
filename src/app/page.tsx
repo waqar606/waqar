@@ -75,7 +75,8 @@ export default function Page() {
                 </div>
               </BlurFade>
               <BlurFade delay={BLUR_FADE_DELAY}>
-                <Link href={`/Huzaifa's Resume.pdf`} target="_blank">
+                {/* <Link href={`/Huzaifa's Resume.pdf`} target="_blank"> */}
+                <Link href={`/Waqar-Ahmed_Resume.pdf`} target="_blank">
                   <TextSliderButton
                     textOne="Download CV"
                     textTwo="Download CV"
@@ -157,7 +158,7 @@ export default function Page() {
               </BlurFade>
               <div className="flex flex-col gap-2">
                 {DATA.skills.map((skill, id) => (
-                  <>
+                  <Fragment key={skill.heading}>
                     <h3 className="font-bold text-sm">{skill.heading}:</h3>
                     <div className="flex flex-wrap gap-1">
                       {skill.skills.map((each) => (
@@ -169,7 +170,7 @@ export default function Page() {
                         </BlurFade>
                       ))}
                     </div>
-                  </>
+                  </Fragment>
                 ))}
               </div>
             </div>
@@ -331,7 +332,7 @@ export default function Page() {
             let&apos;s talk
           </h1>
           <div className="">
-            <a href="mailto:huzaifainshal@gmail.com">
+            <a href="mailto:waqar.tech999@gmail.com">
               <button className="px-4 py-3 rounded-md border border-primary-foreground/70 hover:border-primary-foreground transition-all text-primary-foreground">
                 Email me
               </button>
@@ -346,7 +347,7 @@ export default function Page() {
               <IconButtonWithAnimation variant="instagram" />
               <IconButtonWithAnimation variant="phone" />
             </div>
-            <p className="text-xs">Copyright @2024, Huzaifa Inshal</p>
+            <p className="text-xs">Copyright @2024, Waqar Ahmed</p>
             <TextSliderButton
               textOne="back to top"
               textTwo="back to top"

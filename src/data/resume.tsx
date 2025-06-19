@@ -4,55 +4,50 @@ import toast from "react-hot-toast";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 
 export const DATA = {
-  name: "Huzaifa Inshal",
+  name: "Waqar Ahmed",
   initials: "HI",
   url: "https://google.com",
   location: "Karachi, Pakistan",
   locationLink: "https://maps.app.goo.gl/kBiZRWCkht2mrcDQ6",
   description:
-    "Computer Systems Engineer who specialize in SOC, GRC and Software Development",
+    "A Software Engineer with a strong focus on MERN stack technologies and frontend development.",
   summary:
-    "My name is Muhammad Huzaifa Inshal, and I’m a Computer Systems Engineer with a strong interest in Software Development, Cybersecurity, and AI. I started my career as a full stack developer, building applications from front to back. Over time, I developed a strong interest in cybersecurity, which led me to pursue SOC and GRC practices. I enjoy working on InfoSec strategies, ensuring systems are both secure and compliant. Alongside this, I’ve also explored areas like DevOps and AI to broaden my skill set. My love for mathematics from an early age played a big role in shaping my engineering mindset and approach to solving complex problems.",
+    "My name is Waqar Ahmed, and I’m a passionate MERN Stack Developer with strong expertise in both frontend and backend development, along with hands-on experience in Django. I began my journey as a full stack developer, building robust and user-centric web applications from the ground up. Over time, I honed my skills in crafting responsive user interfaces, managing backend logic, and integrating modern APIs and databases. My early love for mathematics has been instrumental in shaping my analytical thinking and problem-solving abilities, which I apply daily in my engineering work. I’m always eager to explore new technologies and create solutions that are both efficient and impactful.",
   avatarUrl: "/me.png",
   skills: [
-    {
-      heading: "GRC Frameworks",
-      skills: ["COBIT", "NIST", "ISO-27001"],
-    },
-    {
-      heading: "OffSec and Auditing Tools",
-      skills: ["Nessus", "Nmap", "Wifite"],
-    },
-    {
-      heading: "IT Management and Defender Tools",
-      skills: ["Ms Defender for Endpoint", "Active Directoy", "IBM QRadar"],
-    },
+    // {
+    //   heading: "GRC Frameworks",
+    //   skills: ["COBIT", "NIST", "ISO-27001"],
+    // },
+    // {
+    //   heading: "OffSec and Auditing Tools",
+    //   skills: ["Nessus", "Nmap", "Wifite"],
+    // },
+    // {
+    //   heading: "IT Management and Defender Tools",
+    //   skills: ["Ms Defender for Endpoint", "Active Directoy", "IBM QRadar"],
+    // },
     {
       heading: "Coding & Scripting",
       skills: [
-        "Bash Scripting",
-        "Typescript",
+        "JavaScript",
         "Python",
         "ReactJs",
         "Redux",
         "ExpressJs",
-        "NestJs",
         "NodeJs",
         "Django",
         "Booststrap",
         "Tailwind",
-        "JQuery",
       ],
     },
     {
       heading: "Databases",
-      skills: ["PostgreSQL", "MySQL", "MongoDB", "Firebase", "Redis"],
+      skills: ["MySQL", "MongoDB", "Firebase"]
     },
     {
       heading: "Others",
       skills: [
-        "Kali Linux",
-        "Power Query",
         "CICD",
         "Docker",
         "Figma",
@@ -81,25 +76,25 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/HuzaifaInshal",
+        url: "https://github.com/waqar606",
         icon: Icons.github,
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/huzaifainshal/",
+        url: "https://www.linkedin.com/in/waqar-ahmed-dev999/",
         icon: Icons.linkedin,
         navbar: true,
       },
       Facebook: {
         name: "Facebook",
-        url: "https://www.facebook.com/muhammadhuzaifainshal",
+        url: "https://www.facebook.com/waqar.ahmed.716396",
         icon: Icons.facebook,
         navbar: true,
       },
       Instagram: {
         name: "Instagram",
-        url: "https://www.instagram.com/huzaifa_inshal/",
+        url: "https://www.instagram.com/waqar.christiano/",
         icon: Icons.instagram,
         navbar: true,
       },
@@ -107,7 +102,7 @@ export const DATA = {
         name: "WhatsApp/Phone",
         onClick: () => {
           navigator.clipboard
-            .writeText("+923302546626")
+            .writeText("+923182015606")
             .then(() => toast.success("Phone Number copied to clipboard"))
             .catch((err) => console.error("Failed to copy:", err));
         },
@@ -129,7 +124,7 @@ export const DATA = {
       // },
       email: {
         name: "Send Email",
-        url: "mailto:huzaifainshal@gmail.com",
+        url: "mailto:waqar.tech999@gmail.com",
         icon: Icons.email,
 
         navbar: true,
@@ -138,55 +133,55 @@ export const DATA = {
   },
 
   work: [
-    {
-      company: "Zenkoders",
-      href: "https://zenkoders.com/",
-      badges: [],
-      logoUrl: "/zenkoders.png",
-      journey: [
-        {
-          start: "Jul 2024",
-          location: "OnSite, Karachi - Pakistan",
-          end: "Present",
-          title: "Junior Full Stack Developer",
-          description: [
-            "Currently serving as a Junior Full Stack Developer, dedicated to delivering and collaborating on diverse projects.",
-            "My responsibilities span across client-side, server-side, and database technologies, encompassing Next.js, Nest.js, and PostgreSQL, among others.",
-          ],
-          skills: [
-            "NextJs",
-            "NestJS",
-            "PostgreSQL",
-            "MongoDB",
-            "MySQL",
-            "ReduxJs",
-            "react query",
-            "Git",
-          ],
-        },
-        {
-          start: "May 2024",
-          location: "OnSite, Karachi - Pakistan",
-          end: "Jul 2024",
-          title: "Trainee Full Stack Developer",
-          description: [
-            "Started as a trainee developer to gain hands on experience in various software development technologies and methods. ",
-            "The trainee period went on for 2 months.",
-          ],
-          skills: ["NextJs", "NestJS", "PostgreSQL", "MongoDB"],
-        },
-      ],
-    },
+    // {
+    //   company: "Zenkoders",
+    //   href: "https://zenkoders.com/",
+    //   badges: [],
+    //   logoUrl: "/zenkoders.png",
+    //   journey: [
+    //     {
+    //       start: "Jul 2024",
+    //       location: "OnSite, Karachi - Pakistan",
+    //       end: "Present",
+    //       title: "Junior Full Stack Developer",
+    //       description: [
+    //         "Currently serving as a Junior Full Stack Developer, dedicated to delivering and collaborating on diverse projects.",
+    //         "My responsibilities span across client-side, server-side, and database technologies, encompassing Next.js, Nest.js, and PostgreSQL, among others.",
+    //       ],
+    //       skills: [
+    //         "NextJs",
+    //         "NestJS",
+    //         "PostgreSQL",
+    //         "MongoDB",
+    //         "MySQL",
+    //         "ReduxJs",
+    //         "react query",
+    //         "Git",
+    //       ],
+    //     },
+    //     {
+    //       start: "May 2024",
+    //       location: "OnSite, Karachi - Pakistan",
+    //       end: "Jul 2024",
+    //       title: "Trainee Full Stack Developer",
+    //       description: [
+    //         "Started as a trainee developer to gain hands on experience in various software development technologies and methods. ",
+    //         "The trainee period went on for 2 months.",
+    //       ],
+    //       skills: ["NextJs", "NestJS", "PostgreSQL", "MongoDB"],
+    //     },
+    //   ],
+    // },
     {
       company: "Ibranext Technologies",
       href: "https://ibranext.com/",
       badges: [],
-      logoUrl: "/ibranext.png",
+      logoUrl: "/Esolace.png",
       journey: [
         {
           start: "March 2024",
-          location: "Remote - Part time",
-          end: "Present",
+          location: "Onsite - Full time",
+          end: "Feb 2025",
           title: "Full Stack Developer",
           description: [
             "My Full Stack role features work with ReactJs, ExpressJs, AI and Python for business automation and scripting.",
@@ -201,9 +196,9 @@ export const DATA = {
           ],
         },
         {
-          start: "Oct 2023",
+          start: "Feb 2024",
           location: "Remote - Part time",
-          end: "Feb 2025",
+          end: "April 2024",
           title: "Frontend Developer",
           description: [
             "Collaborate with their frontend team to develop user friendly and responsive application with ReactJS.",
@@ -231,26 +226,26 @@ export const DATA = {
         },
       ],
     },
-    {
-      company: "Pakistan Council of Scientific and Industrial Research (PCSIR)",
-      href: "",
-      badges: [],
-      logoUrl: "/pcsir.png",
-      journey: [
-        {
-          start: "Sep 2023",
-          location: "Hybrid - Karachi",
-          end: "Sep 2023",
-          title: "UIUX Internee",
-          description: [
-            "A 15 day internship focus on UI/UX based role with tools like Figma etc.",
-            "Improvised the design for easypaisa app, a loan and mobile banking application.",
-            "Also documented and presented the design in a comprehensive Case Study.",
-          ],
-          skills: ["Figma", "Mobile App Design", "UIUX", "Web Design"],
-        },
-      ],
-    },
+    // {
+    //   company: "Pakistan Council of Scientific and Industrial Research (PCSIR)",
+    //   href: "",
+    //   badges: [],
+    //   logoUrl: "/pcsir.png",
+    //   journey: [
+    //     {
+    //       start: "Sep 2023",
+    //       location: "Hybrid - Karachi",
+    //       end: "Sep 2023",
+    //       title: "UIUX Internee",
+    //       description: [
+    //         "A 15 day internship focus on UI/UX based role with tools like Figma etc.",
+    //         "Improvised the design for easypaisa app, a loan and mobile banking application.",
+    //         "Also documented and presented the design in a comprehensive Case Study.",
+    //       ],
+    //       skills: ["Figma", "Mobile App Design", "UIUX", "Web Design"],
+    //     },
+    //   ],
+    // },
     {
       company: "NCAI - NEDUET, Smart City Lab",
       href: "",
@@ -261,12 +256,12 @@ export const DATA = {
           start: "Sep 2022",
           location: "OnSite - Karachi",
           end: "Oct 2022",
-          title: "Computer Vision Intern",
+          title: "Frontend Developer",
           description: [
-            "Worked on a defective bottle detection system that utilizes the concepts of deep learning and computer vision.",
-            "The tools that I utilized were ScikitLearn, openCV and Tensorflow, both are Python modules that provide functionalities in Deep Learning and Data Science.",
+            "Collaborate with their frontend team to develop user friendly and responsive application with ReactJS.",
+            "Improving pre-existing and developing new client side code by using frontend languages; Html, CSS, JavaScript.",
           ],
-          skills: ["Python", "TensorFlow", "Computer Vision"],
+          skills: ["Python", "HTML", "CSS","JS"],
         },
       ],
     },
@@ -276,7 +271,7 @@ export const DATA = {
       school: "NED University of Engineering and Technology",
       href: "https://www.neduet.edu.pk/",
       degree:
-        "Bachelors of Engineering in Computer and Information Systems Engineering",
+        "Bachelors of Engineering in Computer Science & IT",
       logoUrl: "/NEDUET_logo.svg",
       start: "2020",
       end: "2024",
@@ -296,16 +291,16 @@ export const DATA = {
         "Object-Oriented Programming",
         "Algorithms",
       ],
-      gradeAcheived: "3.62",
+      gradeAcheived: "82%",
       key: "Final Year Project",
       value:
         "Image Captioning for Visually Impaired People; to integrate the Computer Vision based image captioning or object detection model into an IoT based sunglasses that takes pictures and captions them in audio.",
     },
     {
-      school: "Adamjee Government Science College",
+      school: "F.G Boys Inter College, Karachi Cantt",
       href: "https://g.co/kgs/h3MyE4B",
       degree: "Pre-Engineering in Intermediate",
-      logoUrl: "/Adamjee.png",
+      logoUrl: "/fg.png",
       start: "2018",
       end: "2020",
       description: [
@@ -319,20 +314,20 @@ export const DATA = {
         "Analytical & Applied Physics",
         "Organic & Inorganic Chemistry",
       ],
-      gradeAcheived: "87%",
+      gradeAcheived: "78%",
       key: "",
       value: "",
     },
     {
-      school: "Montessori Complex High School",
+      school: "Fazaia Intermediate College PAF Base Korangi Creek",
       href: "https://g.co/kgs/aFQRwsn",
       degree: "Matriculation in Computer Science",
-      logoUrl: "/mchs.png",
+      logoUrl: "/pf.png",
       start: "2016",
       end: "2018",
       description: [],
       skills: ["Computer Science", "Algebra"],
-      gradeAcheived: "88%",
+      gradeAcheived: "81%",
       key: "",
       value: "",
     },
