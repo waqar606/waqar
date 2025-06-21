@@ -44,8 +44,8 @@ export const PROJECTS = [
     liveLinks: ["https://iwaqar-pro999.vercel.app/"],
     mainPara:
       "The following application is React based application that uses ReduxToolkit for central state management. It fetches data from firebase and features elegant design and animation.",
-    majorHashtags: ["Typescript"],
-    minorHashtags: ["ReactJS","TypeScript","Shadcn"],
+    majorHashtags: ["Typescript","Shadcn"],
+    minorHashtags: ["ReactJS","Html","TailwindCSS"],
     tagLine: "My old developer`s portfolio (not maintained anymore)",
     title: "My Old Portfolio",
     titlePictureURL:
@@ -57,8 +57,8 @@ export const PROJECTS = [
     liveLinks: ["https://my-job-site-x1or.vercel.app/"],
     mainPara:
       "A MERN stack job portal web app designed for seamless interaction between students and recruiters. Students can apply for jobs, track application status, and explore opportunities, while recruiters can create companies, post job listings, and manage applications with approval workflows.",
-     majorHashtags: ["MERN"],
-    minorHashtags: ["ReactJS", "ExpressJS", "MongoDB", "NodeJS","Shadcn"],
+     majorHashtags: ["MERN","MongoDB"],
+    minorHashtags: ["ReactJS", "ExpressJS", "NodeJS","Shadcn"],
     mp4URL: "/job.mp4",
     tagLine: "Dream Job? Just a Click Away.",
     title: "Job Portal",
@@ -109,8 +109,8 @@ export const PROJECTS = [
     ],
     mainPara:
       "A modern front-end e-commerce platform with a beautifully designed, fully responsive UI for a seamless shopping experience. It features dynamic product management and smooth cart functionality in an intuitive, visually engaging environment.",
-    majorHashtags: ["ReactJS"],
-    minorHashtags: ["ReactJS","Redux","TailwindCSS"],
+    majorHashtags: ["ReactJS","TailwindCSS"],
+    minorHashtags: ["ReactJS","Redux"],
     tagLine: "Ecommerce Made Effortless",
     title: "ShopifyX",
     titlePictureURL:
@@ -124,8 +124,8 @@ export const PROJECTS = [
     liveLinks: ["https://fresh-mart-zeta.vercel.app/"],
     mainPara:
       "FreshMart is a modern, visually captivating e-commerce platform for fresh grocery delivery, built with React JS and Tailwind CSS. It offers seamless shopping with dynamic category browsing, price filtering, and smooth cart management—all in a fully responsive UI.",
-    majorHashtags: ["ReactJS"],
-    minorHashtags: ["ReactJS","Redux","TailwindCSS"],
+    majorHashtags: ["ReactJS","Redux"],
+    minorHashtags: ["TailwindCSS"],
     tagLine: "Grocery Shopping Made Easy with FreshMart",
     title: "Fresh Mart",
     titlePictureURL:"/Freshmart.png"
