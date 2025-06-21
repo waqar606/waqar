@@ -68,35 +68,35 @@ export const PROJECTS = [
   },
   {
     blogFlow: "",
-    gitLinks: ["https://github.com/HuzaifaInshal/Excel_sales_data_dashboard"],
+    gitLinks: ["https://github.com/waqar606/Course_App"],
     id: "10",
     isActive: true,
     liveLinks: [""],
     mainPara:
-      "A data dashboard built with sales data set. The following dashboard features all important data slicers and info that needs to be displayed with proper visualization.",
-    majorHashtags: ["Excel"],
-    minorHashtags: [],
-    tagLine: "Bring your data to life with elegant excel dashboards",
-    title: "Sales Dashboard with Excel",
+      "A course-buying platform built with the MERN stack, featuring user and admin roles for streamlined management. Admins can create, update, and delete courses, while students can browse, purchase courses, and make secure payments through integrated Stripe functionality.",
+    majorHashtags: ["MERN","Stripe"],
+    minorHashtags: ["ReactJS", "ExpressJS", "NodeJS","MongoDB"],
+    tagLine: "Your Gateway to Knowledge & Skills.",
+    title: "Course Heaven",
     titlePictureURL:
-      "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/Sales Dashboard with Excel excel.png?alt=media&token=c0ecb4f7-1aa4-4de0-9fd1-51dc10ca59d3",
+      "/coursera.png",
   },
 
   {
     blogFlow:
-      '<p>The following project was created as a personal project. The frontend of the project was built by plain HTML, CSS, JavaScript in Webflow. The backend of the project was created using Django.</p><p><br></p><h1>Database</h1><p>The app features a total of 3 data classes:</p><ul><li>For storing User info; built using Django default user class</li><li>For storing Books uploaded by user</li><li>For storing Music uploaded by user</li></ul><p><br></p><h1>Flow of the Program</h1><p>At first the user is welcomed by an animated splash screen, later is taken to the main Landing Page. By clicking approapriate button user will be taken to login and signup page. Once the login singnup process is completed user will access to main activity page. Here the user may listen to songs uploaded by other users or only uploaded by himself only. Same process may be go for books. A third party book reading website pdfdrive.com is also embedded and a Youtube functionality is also embedded if the user wants to watch videos from Youtube. Some pictures are attached below:</p><p><br></p><p><strong>Splash Page:</strong></p><p><img src="https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/BookStudio 1.png?alt=media&amp;token=bbcc6809-9821-4012-83b0-3048f9290705"></p><p><br></p><p><strong>Splash Page Continued</strong></p><p><img src="https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/BookStudio%202.jpg?alt=media&amp;token=8c624eed-339e-4805-8a2b-d2f8dca5f231"></p><p><br></p><p><strong>Landing Page</strong></p><p><img src="https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/BookStudio%203.jpg?alt=media&amp;token=6a9b5b96-03f4-4798-a726-f7bedc08ea70"></p><p><br></p><p><strong>Login Page</strong></p><p><img src="https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/BookStudio%204.jpg?alt=media&amp;token=f0ca29b1-ef33-44a5-b6d4-5015d8d37bbb"></p><p><br></p><p><strong>Signup Page</strong></p><p><img src="https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/BookStudio%205.jpg?alt=media&amp;token=5adf2cfa-fb66-4c38-98c3-a466a9db36a8"></p><p><br></p><p><strong>Books Panel</strong> fetching data from pdfdrive</p><p><img src="https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/BookStudio 10.jpg?alt=media&amp;token=727755d2-efa3-40a3-ad54-2708b372660f"></p><p><br></p><p><strong>Music Panel </strong>to upload your own music and can also access music uplaoded by others.</p><p><img src="https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/BookStudio 9.png?alt=media&amp;token=95313537-9cbd-4cfc-b508-b7218f24587d"></p><p><br></p><p><strong>Youtube Panel</strong> extended to Music Panel to search Youtube</p><p><img src="https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/BookStudio 8.jpg?alt=media&amp;token=f14e712a-213e-46d9-af04-c2fe1f6da459"></p><p><br></p><p><strong>Music Panel</strong></p><p><img src="https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/BookStudio 7.jpg?alt=media&amp;token=11915c2a-3600-401e-9208-9ab52bffb81c"></p><p><br></p><p>Books Panel to upload your own pdfs and can also access pdfs uploaded by other users</p><p><img src="https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/BookStudio 6.jpg?alt=media&amp;token=c961cb1c-6f85-4220-9590-093dcca1ab8b"></p><p><br></p>',
+      "",
     gitLinks: ["https://github.com/HuzaifaInshal/BooksStudio"],
     id: "3",
     isActive: true,
     liveLinks: ["http://inshal.pythonanywhere.com/"],
     mainPara:
-      "A responsive web app based on frontend from webflow and backend of django. It serves as a place where a user can listen to music, read books or browse and watch Youtube videos. I built this app, alongside my 2 friends Zain and Huzaifa who also are professional developers, as a part of my university software engineering course project.",
-    majorHashtags: ["Django", "Webflow"],
-    minorHashtags: ["Html", "CSS", "JavaScript"],
-    tagLine: "A Place to Listen and Read (not maintained anymore)",
-    title: "BookStudio",
+      "DeepSeek AI Clone is a full-featured MERN stack application that replicates the core features of the DeepSeek platform. It includes user authentication, real-time AI-powered responses, and user history management. Built with MongoDB, Express.js, React, and Node.js, it offers a seamless and intelligent user experience.",
+    majorHashtags: ["MERN","Deepseek API"],
+    minorHashtags: ["ReactJS", "ExpressJS", "NodeJS","MongoDB"],
+    tagLine: "Unlock Hidden Insights.",
+    title: "DeepSeek Reimagined",
     titlePictureURL:
-      "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/BookStudio%20bookstudio.png?alt=media&token=f76d97de-b828-4a17-8a0b-caa1900477a5",
+      "/Clone.png"
   },
   {
     blogFlow:
