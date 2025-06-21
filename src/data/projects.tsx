@@ -59,7 +59,7 @@ export const PROJECTS = [
       "The following application is React based application that uses ReduxToolkit for central state management. It fetches data from firebase and features elegant design and animation.",
     majorHashtags: ["ReactJS", "Firebase", "Redux"],
     minorHashtags: ["ReduxToolkit", "Bootstrap"],
-    mp4URL: "/dev_portfolio.mp4",
+    mp4URL: "/job.mp4",
     tagLine: "My old developer`s portfolio (not maintained anymore)",
     title: "My Old Portfolio",
     gitLinks: ["https://github.com/HuzaifaInshal/react_portfolio"],
