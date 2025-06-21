@@ -36,38 +36,87 @@ export const PROJECTS = [
   //   title: "Wifite + Hashcat Python Automation Script",
   //   titlePictureURL: "/wifiteHashcat.png",
   // },
+  //  {
+  //   blogFlow: "",
+  //   gitLinks: ["https://github.com/HuzaifaInshal/Calculator.git"],
+  //   id: "15",
+  //   isActive: true,
+  //   liveLinks: ["https://github.com/HuzaifaInshal/Calculator.git"],
+  //   mainPara:
+  //     "A Simple calculator developed as a part of my internship in Coding Samurai. Features a beautiful web interface with multiple themes option",
+  //   majorHashtags: ["ReactJS"],
+  //   minorHashtags: ["Html/CSS"],
+  //   mp4URL:
+  //     "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/Calculator calculator.mp4?alt=media&token=65689130-4e35-4766-b4ed-e5ee2baf4941",
+  //   tagLine: "lets do some maths :)",
+  //   title: "Calculator",
+  //   titlePictureURL:
+  //     "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/Calculator calculator.PNG?alt=media&token=51054511-532d-40a1-8885-f5ac149c9551",
+  // },
    {
-    blogFlow: "",
-    gitLinks: ["https://github.com/HuzaifaInshal/Calculator.git"],
-    id: "15",
+    blogFlow:
+      "",
+    gitLinks: ["https://github.com/waqar606/Shop-X"],
+    id: "19",
     isActive: true,
-    liveLinks: ["https://github.com/HuzaifaInshal/Calculator.git"],
+    liveLinks: [
+      "https://shopify-x-web.netlify.app/",
+    ],
     mainPara:
-      "A Simple calculator developed as a part of my internship in Coding Samurai. Features a beautiful web interface with multiple themes option",
-    majorHashtags: ["ReactJS"],
-    minorHashtags: ["Html/CSS"],
-    mp4URL:
-      "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/Calculator calculator.mp4?alt=media&token=65689130-4e35-4766-b4ed-e5ee2baf4941",
-    tagLine: "lets do some maths :)",
-    title: "Calculator",
+      "A modern front-end e-commerce platform with a beautifully designed, fully responsive UI for a seamless shopping experience. It features dynamic product management and smooth cart functionality in an intuitive, visually engaging environment.",
+    majorHashtags: ["ReactJS","TailwindCSS"],
+    minorHashtags: ["ReactJS","Redux"],
+    tagLine: "Ecommerce Made Effortless",
+    title: "ShopifyX",
     titlePictureURL:
-      "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/Calculator calculator.PNG?alt=media&token=51054511-532d-40a1-8885-f5ac149c9551",
+      "/Ecom.png"
   },
   {
     blogFlow: "",
-    gitLinks: ["https://github.com/waqar606/iwaqar.pro999"],
-    id: "7",
+    gitLinks: ["https://github.com/waqar606/FreshMart"],
+    id: "18",
     isActive: true,
-    liveLinks: ["https://iwaqar-pro999.vercel.app/"],
+    liveLinks: ["https://fresh-mart-zeta.vercel.app/"],
     mainPara:
-      "The following application is React based application that uses ReduxToolkit for central state management. It fetches data from firebase and features elegant design and animation.",
-    majorHashtags: ["Typescript","Shadcn"],
-    minorHashtags: ["ReactJS","Html","TailwindCSS"],
-    tagLine: "My old developer`s portfolio (not maintained anymore)",
-    title: "My Old Portfolio",
-    titlePictureURL:
-      "/old.png",
+      "FreshMart is a modern, visually captivating e-commerce platform for fresh grocery delivery, built with React JS and Tailwind CSS. It offers seamless shopping with dynamic category browsing, price filtering, and smooth cart management—all in a fully responsive UI.",
+    majorHashtags: ["ReactJS","Redux"],
+    minorHashtags: ["TailwindCSS"],
+    tagLine: "Grocery Shopping Made Easy with FreshMart",
+    title: "Fresh Mart",
+    titlePictureURL:"/Freshmart.png"
   },
+   {
+    blogFlow:
+      "",
+    gitLinks: ["https://github.com/waqar606/MyTube"],
+    id: "6",
+    isActive: true,
+    liveLinks: ["https://youtube-clone-amber-three.vercel.app/"],
+    mainPara:
+      "A modern YouTube clone featuring a sleek, fully responsive UI that delivers a smooth video streaming experience. Users can play and pause videos, explore related content, and search seamlessly in an intuitive, visually engaging environment.",
+    majorHashtags: ["ReactJS"],
+    minorHashtags: ["Html", "CSS", "JavaScript", "Youtube Data API"],
+    tagLine: "Watch Youtube videos in a modern way",
+    title: "YTube",
+    titlePictureURL:"/Ytube.png" 
+    // titlePictureURL:
+    //   "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/Ymusic%20ymusic.png?alt=media&token=56782add-e66e-4130-9c79-40be16896ebb",
+  },
+  // {
+  //   blogFlow: "",
+  //   gitLinks: ["https://github.com/waqar606/iwaqar.pro999"],
+  //   id: "7",
+  //   isActive: true,
+  //   liveLinks: ["https://iwaqar-pro999.vercel.app/"],
+  //   mainPara:
+  //     "The following application is React based application that uses ReduxToolkit for central state management. It fetches data from firebase and features elegant design and animation.",
+  //   majorHashtags: ["Typescript","Shadcn"],
+  //   minorHashtags: ["ReactJS","Html","TailwindCSS"],
+  //   tagLine: "My old developer`s portfolio (not maintained anymore)",
+  //   title: "My Old Portfolio",
+  //   titlePictureURL:
+  //     "/old.png",
+  // },
   {
     id: "14",
     isActive: true,
@@ -115,55 +164,55 @@ export const PROJECTS = [
     titlePictureURL:
       "/Clone.png"
   },
-  {
-    blogFlow:
-      "",
-    gitLinks: ["https://github.com/waqar606/Shop-X"],
-    id: "19",
-    isActive: true,
-    liveLinks: [
-      "https://shopify-x-web.netlify.app/",
-    ],
-    mainPara:
-      "A modern front-end e-commerce platform with a beautifully designed, fully responsive UI for a seamless shopping experience. It features dynamic product management and smooth cart functionality in an intuitive, visually engaging environment.",
-    majorHashtags: ["ReactJS","TailwindCSS"],
-    minorHashtags: ["ReactJS","Redux"],
-    tagLine: "Ecommerce Made Effortless",
-    title: "ShopifyX",
-    titlePictureURL:
-      "/Ecom.png"
-  },
-  {
-    blogFlow: "",
-    gitLinks: ["https://github.com/waqar606/FreshMart"],
-    id: "18",
-    isActive: true,
-    liveLinks: ["https://fresh-mart-zeta.vercel.app/"],
-    mainPara:
-      "FreshMart is a modern, visually captivating e-commerce platform for fresh grocery delivery, built with React JS and Tailwind CSS. It offers seamless shopping with dynamic category browsing, price filtering, and smooth cart management—all in a fully responsive UI.",
-    majorHashtags: ["ReactJS","Redux"],
-    minorHashtags: ["TailwindCSS"],
-    tagLine: "Grocery Shopping Made Easy with FreshMart",
-    title: "Fresh Mart",
-    titlePictureURL:"/Freshmart.png"
-  },
-  {
-    blogFlow:
-      "",
-    gitLinks: ["https://github.com/waqar606/MyTube"],
-    id: "6",
-    isActive: true,
-    liveLinks: ["https://youtube-clone-amber-three.vercel.app/"],
-    mainPara:
-      "A modern YouTube clone featuring a sleek, fully responsive UI that delivers a smooth video streaming experience. Users can play and pause videos, explore related content, and search seamlessly in an intuitive, visually engaging environment.",
-    majorHashtags: ["ReactJS"],
-    minorHashtags: ["Html", "CSS", "JavaScript", "Youtube Data API"],
-    tagLine: "Watch Youtube videos in a modern way",
-    title: "YTube",
-    titlePictureURL:"/Ytube.png" 
-    // titlePictureURL:
-    //   "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/Ymusic%20ymusic.png?alt=media&token=56782add-e66e-4130-9c79-40be16896ebb",
-  },
+  // {
+  //   blogFlow:
+  //     "",
+  //   gitLinks: ["https://github.com/waqar606/Shop-X"],
+  //   id: "19",
+  //   isActive: true,
+  //   liveLinks: [
+  //     "https://shopify-x-web.netlify.app/",
+  //   ],
+  //   mainPara:
+  //     "A modern front-end e-commerce platform with a beautifully designed, fully responsive UI for a seamless shopping experience. It features dynamic product management and smooth cart functionality in an intuitive, visually engaging environment.",
+  //   majorHashtags: ["ReactJS","TailwindCSS"],
+  //   minorHashtags: ["ReactJS","Redux"],
+  //   tagLine: "Ecommerce Made Effortless",
+  //   title: "ShopifyX",
+  //   titlePictureURL:
+  //     "/Ecom.png"
+  // },
+  // {
+  //   blogFlow: "",
+  //   gitLinks: ["https://github.com/waqar606/FreshMart"],
+  //   id: "18",
+  //   isActive: true,
+  //   liveLinks: ["https://fresh-mart-zeta.vercel.app/"],
+  //   mainPara:
+  //     "FreshMart is a modern, visually captivating e-commerce platform for fresh grocery delivery, built with React JS and Tailwind CSS. It offers seamless shopping with dynamic category browsing, price filtering, and smooth cart management—all in a fully responsive UI.",
+  //   majorHashtags: ["ReactJS","Redux"],
+  //   minorHashtags: ["TailwindCSS"],
+  //   tagLine: "Grocery Shopping Made Easy with FreshMart",
+  //   title: "Fresh Mart",
+  //   titlePictureURL:"/Freshmart.png"
+  // },
+  // {
+  //   blogFlow:
+  //     "",
+  //   gitLinks: ["https://github.com/waqar606/MyTube"],
+  //   id: "6",
+  //   isActive: true,
+  //   liveLinks: ["https://youtube-clone-amber-three.vercel.app/"],
+  //   mainPara:
+  //     "A modern YouTube clone featuring a sleek, fully responsive UI that delivers a smooth video streaming experience. Users can play and pause videos, explore related content, and search seamlessly in an intuitive, visually engaging environment.",
+  //   majorHashtags: ["ReactJS"],
+  //   minorHashtags: ["Html", "CSS", "JavaScript", "Youtube Data API"],
+  //   tagLine: "Watch Youtube videos in a modern way",
+  //   title: "YTube",
+  //   titlePictureURL:"/Ytube.png" 
+  //   // titlePictureURL:
+  //   //   "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/Ymusic%20ymusic.png?alt=media&token=56782add-e66e-4130-9c79-40be16896ebb",
+  // },
   {
     blogFlow: "",
     gitLinks: ["https://github.com/HuzaifaInshal/TodoApp.git"],
@@ -231,6 +280,21 @@ export const PROJECTS = [
     title: "DROPIFY",
     titlePictureURL:
       "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/DROPIFY dropify.png?alt=media&token=0e521d5a-6c08-458a-8a46-8a1014749686",
+  },
+   {
+    blogFlow: "",
+    gitLinks: ["https://github.com/waqar606/iwaqar.pro999"],
+    id: "7",
+    isActive: true,
+    liveLinks: ["https://iwaqar-pro999.vercel.app/"],
+    mainPara:
+      "The following application is React based application that uses ReduxToolkit for central state management. It fetches data from firebase and features elegant design and animation.",
+    majorHashtags: ["Typescript","Shadcn"],
+    minorHashtags: ["ReactJS","Html","TailwindCSS"],
+    tagLine: "My old developer`s portfolio (not maintained anymore)",
+    title: "My Old Portfolio",
+    titlePictureURL:
+      "/old.png",
   },
   // {
   //   blogFlow: "",
