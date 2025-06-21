@@ -100,36 +100,35 @@ export const PROJECTS = [
   },
   {
     blogFlow:
-      '<p><img src="https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/UIUX Case Study uiux.jpg?alt=media&amp;token=d6e5bde8-1f9b-45ce-bb54-dbea3b8efb72"></p>',
-    gitLinks: [],
+      "",
+    gitLinks: ["https://github.com/waqar606/Shop-X"],
     id: "19",
     isActive: true,
     liveLinks: [
-      "https://media.licdn.com/dms/image/v2/D4D2DAQFrhZjYaXAGEg/profile-treasury-image-shrink_8192_8192/profile-treasury-image-shrink_8192_8192/0/1696026238290?e=1746975600&v=beta&t=ubRtdZi6bnuS_NSM6_geXAjMwiAnppu9MHqNsGXZlVA",
+      "https://shopify-x-web.netlify.app/",
     ],
     mainPara:
-      "As part of my internship in PCSIR, I redesigned easypaisa mobile application with figma that aims to solve the existing design defects, also comprehend the given design into a case study.",
-    majorHashtags: ["UIUX", "Figma"],
-    minorHashtags: ["mobileDesign"],
-    tagLine: "easypaisa app redesigned",
-    title: "UIUX Case Study",
+      "A modern front-end e-commerce platform with a beautifully designed, fully responsive UI for a seamless shopping experience. It features dynamic product management and smooth cart functionality in an intuitive, visually engaging environment.",
+    majorHashtags: ["ReactJS"],
+    minorHashtags: ["ReactJS","Redux","TailwindCSS"],
+    tagLine: "Ecommerce Made Effortless",
+    title: "ShopifyX",
     titlePictureURL:
-      "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/UIUX Case Study title.jpg?alt=media&token=89ebf422-bc53-4b10-bf30-5ecdfc31d37a",
+      "/Ecom.png"
   },
   {
     blogFlow: "",
-    gitLinks: ["https://github.com/HuzaifaInshal/mp3juicez.git"],
+    gitLinks: ["https://github.com/waqar606/FreshMart"],
     id: "18",
     isActive: true,
-    liveLinks: ["https://mp3juicez.vercel.app/"],
+    liveLinks: ["https://fresh-mart-zeta.vercel.app/"],
     mainPara:
-      "A NEXTJS application featuring the functionality to play, download audio or videos. The results are fetched from YoutubeDataAPI, download functionalities are handled by ytdl-core and y2mp3 APIs. The application layout is built with TailwindCSS.",
-    majorHashtags: ["NextJS", "TailwindCSS"],
-    minorHashtags: ["YoutubeDataAPI", "ytdl-core"],
-    tagLine: "listen or download your favourite mp3s or mp4s",
-    title: "MP3Juicezz",
-    titlePictureURL:
-      "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/MP3Juicezz mp3.PNG?alt=media&token=5bc9795f-8d85-48a7-83f9-79a3376d1053",
+      "FreshMart is a modern, visually captivating e-commerce platform for fresh grocery delivery, built with React JS and Tailwind CSS. It offers seamless shopping with dynamic category browsing, price filtering, and smooth cart management—all in a fully responsive UI.",
+    majorHashtags: ["ReactJS"],
+    minorHashtags: ["ReactJS","Redux","TailwindCSS"],
+    tagLine: "Grocery Shopping Made Easy with FreshMart",
+    title: "Fresh Mart",
+    titlePictureURL:"/Freshmart.png"
   },
   {
     blogFlow:
