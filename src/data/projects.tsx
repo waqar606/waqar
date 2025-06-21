@@ -36,6 +36,23 @@ export const PROJECTS = [
   //   title: "Wifite + Hashcat Python Automation Script",
   //   titlePictureURL: "/wifiteHashcat.png",
   // },
+   {
+    blogFlow: "",
+    gitLinks: ["https://github.com/HuzaifaInshal/Calculator.git"],
+    id: "15",
+    isActive: true,
+    liveLinks: ["https://github.com/HuzaifaInshal/Calculator.git"],
+    mainPara:
+      "A Simple calculator developed as a part of my internship in Coding Samurai. Features a beautiful web interface with multiple themes option",
+    majorHashtags: ["ReactJS"],
+    minorHashtags: ["Html/CSS"],
+    mp4URL:
+      "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/Calculator calculator.mp4?alt=media&token=65689130-4e35-4766-b4ed-e5ee2baf4941",
+    tagLine: "lets do some maths :)",
+    title: "Calculator",
+    titlePictureURL:
+      "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/Calculator calculator.PNG?alt=media&token=51054511-532d-40a1-8885-f5ac149c9551",
+  },
   {
     blogFlow: "",
     gitLinks: ["https://github.com/waqar606/iwaqar.pro999"],
@@ -85,10 +102,10 @@ export const PROJECTS = [
   {
     blogFlow:
       "",
-    gitLinks: ["https://github.com/HuzaifaInshal/BooksStudio"],
+    gitLinks: ["https://github.com/waqar606/Deepseek_Clone"],
     id: "3",
     isActive: true,
-    liveLinks: ["http://inshal.pythonanywhere.com/"],
+    liveLinks: ["https://github.com/waqar606/Deepseek_Clone"],
     mainPara:
       "DeepSeek AI Clone is a full-featured MERN stack application that replicates the core features of the DeepSeek platform. It includes user authentication, real-time AI-powered responses, and user history management. Built with MongoDB, Express.js, React, and Node.js, it offers a seamless and intelligent user experience.",
     majorHashtags: ["MERN","Deepseek API"],
@@ -164,23 +181,23 @@ export const PROJECTS = [
     titlePictureURL:
       "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/TODO App todo.PNG?alt=media&token=38794eed-6189-4139-8f6f-0ee3b55eeebe",
   },
-  {
-    blogFlow: "",
-    gitLinks: ["https://github.com/HuzaifaInshal/Calculator.git"],
-    id: "15",
-    isActive: true,
-    liveLinks: ["https://github.com/HuzaifaInshal/Calculator.git"],
-    mainPara:
-      "A Simple calculator developed as a part of my internship in Coding Samurai. Features a beautiful web interface with multiple themes option",
-    majorHashtags: ["ReactJS"],
-    minorHashtags: ["Html/CSS"],
-    mp4URL:
-      "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/Calculator calculator.mp4?alt=media&token=65689130-4e35-4766-b4ed-e5ee2baf4941",
-    tagLine: "lets do some maths :)",
-    title: "Calculator",
-    titlePictureURL:
-      "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/Calculator calculator.PNG?alt=media&token=51054511-532d-40a1-8885-f5ac149c9551",
-  },
+  // {
+  //   blogFlow: "",
+  //   gitLinks: ["https://github.com/HuzaifaInshal/Calculator.git"],
+  //   id: "15",
+  //   isActive: true,
+  //   liveLinks: ["https://github.com/HuzaifaInshal/Calculator.git"],
+  //   mainPara:
+  //     "A Simple calculator developed as a part of my internship in Coding Samurai. Features a beautiful web interface with multiple themes option",
+  //   majorHashtags: ["ReactJS"],
+  //   minorHashtags: ["Html/CSS"],
+  //   mp4URL:
+  //     "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/Calculator calculator.mp4?alt=media&token=65689130-4e35-4766-b4ed-e5ee2baf4941",
+  //   tagLine: "lets do some maths :)",
+  //   title: "Calculator",
+  //   titlePictureURL:
+  //     "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/Calculator calculator.PNG?alt=media&token=51054511-532d-40a1-8885-f5ac149c9551",
+  // },
   {
     blogFlow: "",
     gitLinks: ["https://github.com/HuzaifaInshal/3diphone14pro.git"],
@@ -215,21 +232,21 @@ export const PROJECTS = [
     titlePictureURL:
       "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/DROPIFY dropify.png?alt=media&token=0e521d5a-6c08-458a-8a46-8a1014749686",
   },
-  {
-    blogFlow: "",
-    gitLinks: ["https://github.com/HuzaifaInshal/spacex_spacecraft.git"],
-    id: "4",
-    isActive: true,
-    liveLinks: ["https://3dspacecraft.netlify.app/"],
-    mainPara:
-      "A static 3D website for a conceptual spaceX exploratory research craft built inside React with ThreeJS, provides seamless animation. Libraries are react-three-fiber and react-three-drei. Animations are handled with gsap.",
-    majorHashtags: ["ReactJS", "ThreeJS"],
-    minorHashtags: ["React-Three-Fiber", "React-Three-Drei", "GSAP"],
-    mp4URL:
-      "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/SpaceX Spacecraft spacex.mp4?alt=media&token=31386b41-33d1-433e-8572-56230acdd6c1",
-    tagLine: "A 3D web to dive you into space",
-    title: "SpaceX Spacecraft",
-    titlePictureURL:
-      "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/SpaceX Spacecraft spacex.png?alt=media&token=8a92f237-cde7-4fa4-a110-f2a68573bcb1",
-  },
+  // {
+  //   blogFlow: "",
+  //   gitLinks: ["https://github.com/HuzaifaInshal/spacex_spacecraft.git"],
+  //   id: "4",
+  //   isActive: true,
+  //   liveLinks: ["https://3dspacecraft.netlify.app/"],
+  //   mainPara:
+  //     "A static 3D website for a conceptual spaceX exploratory research craft built inside React with ThreeJS, provides seamless animation. Libraries are react-three-fiber and react-three-drei. Animations are handled with gsap.",
+  //   majorHashtags: ["ReactJS", "ThreeJS"],
+  //   minorHashtags: ["React-Three-Fiber", "React-Three-Drei", "GSAP"],
+  //   mp4URL:
+  //     "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/SpaceX Spacecraft spacex.mp4?alt=media&token=31386b41-33d1-433e-8572-56230acdd6c1",
+  //   tagLine: "A 3D web to dive you into space",
+  //   title: "SpaceX Spacecraft",
+  //   titlePictureURL:
+  //     "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/SpaceX Spacecraft spacex.png?alt=media&token=8a92f237-cde7-4fa4-a110-f2a68573bcb1",
+  // },
 ];
