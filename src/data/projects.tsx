@@ -1,3 +1,5 @@
+import { title } from "process";
+
 export const PROJECTS = [
   // {
   //   blogFlow: "",
@@ -142,8 +144,9 @@ export const PROJECTS = [
     minorHashtags: ["Html", "CSS", "JavaScript", "Youtube Data API"],
     tagLine: "Watch Youtube videos in a modern way",
     title: "YTube",
-    titlePictureURL:
-      "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/Ymusic%20ymusic.png?alt=media&token=56782add-e66e-4130-9c79-40be16896ebb",
+    titlePictureURL:"/YTube.png" 
+    // titlePictureURL:
+    //   "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/Ymusic%20ymusic.png?alt=media&token=56782add-e66e-4130-9c79-40be16896ebb",
   },
   {
     blogFlow: "",
