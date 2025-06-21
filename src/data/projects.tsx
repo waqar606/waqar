@@ -131,17 +131,17 @@ export const PROJECTS = [
   },
   {
     blogFlow:
-      '<h2>DESCRIPTION</h2><p>The application was built on top of ExpressJS and ReactJS, with seprate client side and server side code. It uses YoutubeDataAPI to fetch the Youtube result and also uses ytdl-core to extract audio from each Youtube url.</p><p><br></p><h2>LIMITATIONS &amp; SOLUTION</h2><p>However due to unavailability of proper deployement server the app suffer a major problem i.e. any song or audio with a dureation of more than 5minute or precisely said to be more than 6mb that audio file doesnt download rather returns an internal server error. This problem doesnt occur on local hosts. These problems are solved on another project <strong>mp3juicez </strong>deployed on <a href="https://mp3juicez.vercel.app/" rel="noopener noreferrer" target="_blank">https://mp3juicez.vercel.app/</a> where everything is built on NextJS.</p><p><br></p><p>Nevertheless the app features an elegant UIUX, made from fully custom CSS, where you can easily play any song of your choice all in browser.</p>',
-    gitLinks: ["https://github.com/HuzaifaInshal/ytmusic"],
+      "",
+    gitLinks: ["https://github.com/waqar606/MyTube"],
     id: "6",
     isActive: true,
-    liveLinks: ["https://ytmusic.vercel.app/home"],
+    liveLinks: ["https://youtube-clone-amber-three.vercel.app/"],
     mainPara:
-      "A React and Node application from where you can download and listen to audio of songs and videos from youtube. Utilizes the availability of YouTube Data API. This project emphasizes more on the backend functionalities. This project also has some flaws, unfixable errors and setbacks that all are overcomed in another project mp3juicez. ",
-    majorHashtags: ["MERN", "ReactJS", "ExpressJS"],
-    minorHashtags: ["NodeJS", "Html", "CSS", "JavaScript", "Youtube Data API"],
-    tagLine: "Listen to your favourite songs",
-    title: "Ymusic",
+      "A modern YouTube clone featuring a sleek, fully responsive UI that delivers a smooth video streaming experience. Users can play and pause videos, explore related content, and search seamlessly in an intuitive, visually engaging environment.",
+    majorHashtags: ["ReactJS"],
+    minorHashtags: ["Html", "CSS", "JavaScript", "Youtube Data API"],
+    tagLine: "Watch Youtube videos in a modern way",
+    title: "YTube",
     titlePictureURL:
       "https://firebasestorage.googleapis.com/v0/b/myportfoliodb-56c35.appspot.com/o/Ymusic%20ymusic.png?alt=media&token=56782add-e66e-4130-9c79-40be16896ebb",
   },
