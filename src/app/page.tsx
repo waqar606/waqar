@@ -70,7 +70,8 @@ export default function Page() {
                   <IconButtonWithAnimation variant="linkedin" isBlack />
                   <IconButtonWithAnimation variant="github" isBlack />
                   <IconButtonWithAnimation variant="facebook" isBlack />
-                  <IconButtonWithAnimation variant="instagram" isBlack />
+                  {/* <IconButtonWithAnimation variant="instagram" isBlack /> */}
+                   <IconButtonWithAnimation variant="gmail" isBlack />
                   <IconButtonWithAnimation variant="phone" isBlack />
                 </div>
               </BlurFade>
@@ -344,7 +345,7 @@ export default function Page() {
               <IconButtonWithAnimation variant="linkedin" />
               <IconButtonWithAnimation variant="github" />
               <IconButtonWithAnimation variant="facebook" />
-              <IconButtonWithAnimation variant="instagram" />
+              {/* <IconButtonWithAnimation variant="instagram" /> */}
               <IconButtonWithAnimation variant="phone" />
             </div>
             <p className="text-xs">Copyright @2024, Waqar Ahmed</p>

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Fragment } from "react";
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
 import toast from "react-hot-toast";
 import { MdDarkMode } from "react-icons/md";
 import { DATA } from "@/data/resume";
@@ -11,7 +12,7 @@ const IconButtonWithAnimation = ({
   variant,
   isBlack,
 }: {
-  variant: "facebook" | "linkedin" | "github" | "instagram" | "phone";
+  variant: "facebook" | "linkedin" | "github" | "instagram" | "phone" | "gmail";
   isBlack?: boolean;
 }) => {
   function returnLink() {
@@ -28,6 +29,9 @@ const IconButtonWithAnimation = ({
         break;
       case "linkedin":
         link = DATA.contact.social.LinkedIn.url;
+        break;
+      case "gmail":
+        link = "";
         break;
       default:
         link = "";
@@ -82,6 +86,12 @@ const IconButtonWithAnimation = ({
         <>
           <FaPhone className="flex-shrink-0" size={18} />
           <p>phone</p>
+        </>
+      )}
+      {variant === "gmail" && (
+        <>
+          <MdEmail className="flex-shrink-0" size={18} />
+          <p>gmail</p>
         </>
       )}
     </Fragment>
