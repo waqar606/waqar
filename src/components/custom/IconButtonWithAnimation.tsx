@@ -112,6 +112,21 @@ const IconButtonWithAnimation = ({
       </button>
     );
   }
+  if (variant === "gmail") {
+    return (
+      <button
+        onClick={() => {
+          navigator.clipboard
+            .writeText("waqar.tech999@gmail.com")
+            .then(() => toast.success("Email copied to clipboard"))
+            .catch((err) => console.error("Failed to copy:", err));
+        }}
+        className={classNames}
+      >
+        {content}
+      </button>
+    );
+  }
 
   return (
     <Link href={returnLink()} target={"_blank"} className={classNames}>
