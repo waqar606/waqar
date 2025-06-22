@@ -92,7 +92,7 @@ const IconButtonWithAnimation = ({
       <button
         onClick={() => {
           navigator.clipboard
-            .writeText("+923302546626")
+            .writeText("+923182015606")
             .then(() => toast.success("Phone Number copied to clipboard"))
             .catch((err) => console.error("Failed to copy:", err));
         }}
