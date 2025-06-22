@@ -173,8 +173,8 @@ export const DATA = {
     //   ],
     // },
     {
-      company: "Ibranext Technologies",
-      href: "https://ibranext.com/",
+      company: "Esolace Tech",
+      href: "",
       badges: [],
       logoUrl: "/Esolace.png",
       journey: [
