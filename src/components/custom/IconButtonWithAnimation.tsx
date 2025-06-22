@@ -51,6 +51,7 @@ const IconButtonWithAnimation = ({
     variant === "github" && "hover:w-[100px]",
     variant === "phone" && "hover:w-[90px]",
     variant === "linkedin" && "hover:w-[110px]",
+    variant === "gmail" && "hover:w-[100px]",
     "flex items-center justify-start gap-2",
     "uppercase",
     "text-sm"

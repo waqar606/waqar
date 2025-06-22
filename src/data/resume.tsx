@@ -109,6 +109,17 @@ export const DATA = {
         icon: Icons.phone,
         navbar: true,
       },
+       gmail: {
+        name: "email",
+        onClick: () => {
+          navigator.clipboard
+            .writeText("waqar.tech999@gmail.com")
+            .then(() => toast.success("Email copied to clipboard"))
+            .catch((err) => console.error("Failed to copy:", err));
+        },
+        icon: Icons.email,
+        navbar: true,
+      },
       // X: {
       //   name: "X",
       //   url: "",
@@ -122,13 +133,13 @@ export const DATA = {
       //   icon: Icons.youtube,
       //   navbar: true,
       // },
-      email: {
-        name: "Send Email",
-        url: "mailto:waqar.tech999@gmail.com",
-        icon: Icons.email,
+      // email: {
+      //   name: "Send Email",
+      //   url: "mailto:waqar.tech999@gmail.com",
+      //   icon: Icons.email,
 
-        navbar: true,
-      },
+      //   navbar: true,
+      // },
     },
   },
 
