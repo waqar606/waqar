@@ -130,7 +130,12 @@ const IconButtonWithAnimation = ({
   }
 
   return (
-    <Link href={returnLink()} target={"_blank"} className={classNames}>
+    // <Link href={returnLink()} target={"_blank"} className={classNames}>
+    //   {content}
+    // </Link>
+
+    //changes
+   <Link href={returnLink()} target={"_blank"} rel="noopener noreferrer" className={classNames}>
       {content}
     </Link>
   );

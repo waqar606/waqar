@@ -48,6 +48,8 @@ export function ProjectCard({
       <Link
         href={href || "#"}
         target="_blank"
+        //change
+        rel="noopener noreferrer"
         className={cn("block cursor-pointer", className)}
       >
         {video ? (
@@ -102,7 +104,7 @@ export function ProjectCard({
         {liveLinks && liveLinks.length > 0 && (
           <div className="flex flex-row flex-wrap items-start gap-1">
             {liveLinks?.map((link, idx) => (
-              <Link href={link} key={idx} target="_blank">
+              <Link href={link} key={idx} target="_blank" rel="noopener noreferrer">
                 <Badge key={idx} className="flex gap-2 px-2 py-1 text-[10px]">
                   <Icons.globe className="size-3" />
                   Show Live
@@ -114,7 +116,7 @@ export function ProjectCard({
         {gitLinks && gitLinks.length > 0 && (
           <div className="flex flex-row flex-wrap items-start gap-1 ms-1">
             {gitLinks?.map((link, idx) => (
-              <Link href={link} key={idx} target="_blank">
+              <Link href={link} key={idx} target="_blank" rel="noopener noreferrer">
                 <Badge key={idx} className="flex gap-2 px-2 py-1 text-[10px]">
                   <Icons.github className="size-3" />
                   Show code

@@ -333,7 +333,10 @@ export default function Page() {
             let&apos;s talk
           </h1>
           <div className="">
-            <a href="mailto:waqar.tech999@gmail.com">
+            {/* <a href="mailto:waqar.tech999@gmail.com"> */}
+
+            {/* changes made */}
+            <a href="mailto:waqar.tech999@gmail.com" target="_blank" rel="noopener noreferrer">
               <button className="px-4 py-3 rounded-md border border-primary-foreground/70 hover:border-primary-foreground transition-all text-primary-foreground">
                 Email me
               </button>
