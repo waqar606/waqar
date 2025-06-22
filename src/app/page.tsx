@@ -282,7 +282,7 @@ export default function Page() {
               <button 
               onClick={() => {
                 navigator.clipboard
-                  .writeText("huzaifainshal@gmail.com")
+                  .writeText("waqar.tech999@gmail.com")
                   .then(() => {
                     toast.success("Email copied to clipboard");
                     // Redirect to Gmail after a few seconds
@@ -294,9 +294,9 @@ export default function Page() {
               }}
               className="px-4 py-3 rounded-md border border-primary-foreground/70 hover:border-primary-foreground transition-all text-primary-foreground"
             >
-              Email me at
+              Email me 
             </button>
-            
+
           </div>
           <hr className="border-white my-5" />
           <div className="flex flex-row items-center justify-between">
