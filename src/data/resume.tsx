@@ -282,7 +282,7 @@ export const DATA = {
       school: "NED University of Engineering and Technology",
       href: "https://www.neduet.edu.pk/",
       degree:
-        "Bachelors of Engineering in Computer Science & IT",
+        "Bachelors of Science in Computer Science & IT",
       logoUrl: "/NEDUET_logo.svg",
       start: "2020",
       end: "2024",
