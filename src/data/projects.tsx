@@ -125,7 +125,7 @@ export const PROJECTS = [
       "A MERN stack job portal web app designed for seamless interaction between students and recruiters. Students can apply for jobs, track application status, and explore opportunities, while recruiters can create companies, post job listings, and manage applications with approval workflows.",
      majorHashtags: ["MERN","MongoDB"],
     minorHashtags: ["ReactJS", "ExpressJS", "NodeJS","Shadcn"],
-    mp4URL: "/job.mp4",
+    mp4URL: "/JobWeb.mp4",
     tagLine: "Dream Job? Just a Click Away.",
     title: "Job Portal",
     gitLinks: ["https://github.com/waqar606/MyJobSite"],
@@ -160,6 +160,7 @@ export const PROJECTS = [
       "QueryMind AI is a MERN stack chatbot that replicates key features of platforms like DeepSeek. It includes user authentication, AI-powered real-time responses, and chat history management. Built with MongoDB, Express.js, React, and Node.js, it delivers a smart and seamless user experience",
     majorHashtags: ["MERN","Deepseek API"],
     minorHashtags: ["ReactJS", "ExpressJS", "NodeJS","MongoDB"],
+    mp4URL: "/QueryMind.mp4",
     tagLine: "Ask anything. Query everything.",
     title: "QueryMind",
     titlePictureURL:
