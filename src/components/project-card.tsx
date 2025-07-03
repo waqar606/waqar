@@ -59,7 +59,8 @@ export function ProjectCard({
             loop
             muted
             playsInline
-            className="pointer-events-none mx-auto h-40 w-full object-cover object-top" // needed because random black line at bottom of video
+            // className="pointer-events-none mx-auto h-40 w-full object-cover object-top" // needed because random black line at bottom of video
+            className="w-full h-full object-cover"
           />
         ) : (
           image && (
