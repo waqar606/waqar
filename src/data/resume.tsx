@@ -190,9 +190,9 @@ export const DATA = {
       logoUrl: "/Esolace.png",
       journey: [
         {
-          start: "March 2024",
+          start: "April 2024",
           location: "Onsite - Full time",
-          end: "Feb 2025",
+          end: "June 2025",
           title: "Full Stack Developer",
           description: [
             "My Full Stack role features work with ReactJs, ExpressJs, AI and Python for business automation and scripting.",
@@ -207,7 +207,7 @@ export const DATA = {
           ],
         },
         {
-          start: "Feb 2024",
+          start: "April 2024",
           location: "Remote - Part time",
           end: "April 2024",
           title: "Frontend Developer",

@@ -137,7 +137,7 @@ export const PROJECTS = [
     gitLinks: ["https://github.com/waqar606/Course_App"],
     id: "10",
     isActive: true,
-    liveLinks: [""],
+    liveLinks: ["https://course-app-vj3i.vercel.app/"],
     mainPara:
       "A course-buying platform built with the MERN stack, featuring user and admin roles for streamlined management. Admins can create, update, and delete courses, while students can browse, purchase courses, and make secure payments through integrated Stripe functionality.",
     majorHashtags: ["MERN","Stripe"],
@@ -215,7 +215,7 @@ export const PROJECTS = [
   // },
   {
     blogFlow: "",
-    gitLinks: ["https://github.com/HuzaifaInshal/TodoApp.git"],
+    gitLinks: ["https://github.com/waqar606/Todo_Mern"],
     id: "17",
     isActive: true,
     liveLinks: ["https://coding-samurai-internship-task-2.vercel.app"],
@@ -249,7 +249,7 @@ export const PROJECTS = [
   // },
   {
     blogFlow: "",
-    gitLinks: ["https://github.com/HuzaifaInshal/3diphone14pro.git"],
+    gitLinks: ["https://github.com/waqar606/Apple_Website"],
     id: "1",
     isActive: true,
     liveLinks: ["https://3diphone14pro.netlify.app/"],
@@ -266,7 +266,7 @@ export const PROJECTS = [
   },
   {
     blogFlow: "",
-    gitLinks: ["https://github.com/HuzaifaInshal/3d_dropify.git"],
+    gitLinks: ["https://github.com/waqar606/Dropify"],
     id: "2",
     isActive: true,
     liveLinks: ["https://3dropify.netlify.app/"],
