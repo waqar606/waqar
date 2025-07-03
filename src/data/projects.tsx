@@ -159,8 +159,8 @@ export const PROJECTS = [
       "QueryMind AI is a MERN stack chatbot that replicates key features of platforms like DeepSeek. It includes user authentication, AI-powered real-time responses, and chat history management. Built with MongoDB, Express.js, React, and Node.js, it delivers a smart and seamless user experience",
     majorHashtags: ["MERN","Deepseek API"],
     minorHashtags: ["ReactJS", "ExpressJS", "NodeJS","MongoDB"],
-    tagLine: "Unlock Hidden Insights.",
-    title: "Ask anything. Query everything.",
+    tagLine: "Ask anything. Query everything.",
+    title: "QueryMind",
     titlePictureURL:
       "/Clone.png"
   },
