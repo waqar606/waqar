@@ -142,6 +142,7 @@ export const PROJECTS = [
       "A course-buying platform built with the MERN stack, featuring user and admin roles for streamlined management. Admins can create, update, and delete courses, while students can browse, purchase courses, and make secure payments through integrated Stripe functionality.",
     majorHashtags: ["MERN","Stripe"],
     minorHashtags: ["ReactJS", "ExpressJS", "NodeJS","MongoDB"],
+    mp4URL: "/Coursera.mp4",
     tagLine: "Your Gateway to Knowledge & Skills.",
     title: "Course Heaven",
     titlePictureURL:
