@@ -32,13 +32,33 @@ export const DATA = {
       skills: [
         "JavaScript",
         "Python",
-        "ReactJs",
-        "Redux",
+        "TypeScript",        // Commonly used with React
+        "HTML5",
+        "CSS3",
         "ExpressJs",
         "NodeJs",
         "Django",
-        "Booststrap",
-        "Tailwind",
+        "ReactJs",
+        "React Router",
+        "Redux / Redux Toolkit",
+        "Context API",
+        "React Query",       // For API caching/state
+        "Zustand",           // Lightweight state manager
+        "React Hook Form",   // For forms
+        "Formik",
+        "Axios",
+        "Fetch API",
+        "RESTful APIs",
+        "GraphQL", 
+        "Framer Motion",
+        "Material UI",
+        "Ant Design",
+        "Bootstrap (React-Bootstrap)",
+        "Chakra UI",
+        "ShadCN",
+        "Tailwind CSS",
+        "Styled Components",
+       
       ],
     },
     {
