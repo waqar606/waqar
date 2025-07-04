@@ -350,7 +350,7 @@ export const DATA = {
       value: "",
     },
     {
-      school: "Fazaia Intermediate College PAF Base Korangi Creek",
+      school: "Fazaia College PAF Korangi",
       href: "https://g.co/kgs/aFQRwsn",
       degree: "Matriculation in Computer Science",
       logoUrl: "/pf.png",
