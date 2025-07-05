@@ -139,7 +139,7 @@ export const PROJECTS = [
    {
     blogFlow:
       "",
-    gitLinks: ["https://github.com/waqar606/Deepseek_Clone"],
+    gitLinks: ["https://github.com/waqar606/Music_Player"],
     id: "3",
     isActive: true,
     liveLinks: ["https://music-player-omega-eight-53.vercel.app/"],
