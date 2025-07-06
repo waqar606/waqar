@@ -73,8 +73,19 @@ export const ResumeCard = ({
                   )}
                 />
               </h3>
-              <div className="text-xs sm:text-sm tabular-nums text-muted-foreground text-right">
+              {/* <div className="text-xs sm:text-sm tabular-nums text-muted-foreground text-right">
                 {period} - {gradeAcheived}
+              </div> */}
+                <div className="text-xs sm:text-sm tabular-nums text-muted-foreground text-right">
+                {/* For small devices (sm and below) */}
+                <span className="block md:hidden">
+                  {/* {period.slice(-2)}' - {gradeAcheived} */}
+                  {gradeAcheived}
+                </span>
+                {/* For medium and up */}
+                <span className="hidden md:block">
+                  {period} - {gradeAcheived}
+                </span>
               </div>
             </div>
             {subtitle && <div className="font-sans text-xs">{subtitle}</div>}
